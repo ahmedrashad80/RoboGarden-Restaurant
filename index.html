@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Restaurant</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+      <div class="container">
+        <a class="navbar-brand text-light href="#">RopoEat </a>
+        <button
+          class="navbar-toggler"
+          id="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Three pages on the left -->
+            <li class="nav-item">
+              <a class="nav-link text-light active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <!-- Sentence on the right -->
+          <span class="navbar-text text-light"
+            ><i class="fa fa-phone" aria-hidden="true"></i> Call to place
+            order</span
+          >
+        </div>
+      </div>
+    </nav>
+<div class="container">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://robogarden-new.s3.us-west-2.amazonaws.com/RGU/Micro/restaurant-banner.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://robogarden.s3.us-west-2.amazonaws.com/content/Rest_2-min.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="section">
+        <div class="card">
+            <img src="https://robogarden-new.s3.us-west-2.amazonaws.com/RGU/Micro/food1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Seasonal Steak Special</h5>
+              <p class="card-text">Our 7oz AAA Canadian Sirloin, aged for 50 days and fire-grilled to order topped with a
+                garlic herb butter and served with creamy potato smashers, two crispy onion rings and your choice of
+                in-house baked beans or coleslaw. Finish off your meal with four mini donuts tossed in cinnamon sugar
+                and served with English toffee dipping sauce.</p>
+              <a href="#" class="btn like-btn like"><i class="fa fa-thumbs-up"></i>  like</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://robogarden-new.s3.us-west-2.amazonaws.com/RGU/Micro/food2.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">10 oz AAA Striploin</h5>
+              <p class="card-text">This centre cut, AAA Canadian Striploin is for the real steak lovers out there.
+                Seasoned in house for 8 hours and then grilled to order. Served with two onion rings, your choice of
+                in-house baked beans or coleslaw and seasoned fries. *Cannot guarantee steak doneness for take-out.</p>
+              <a href="#" class="btn like-btn dislike"><i class="fa fa-thumbs-down"></i> Dislike</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://robogarden-new.s3.us-west-2.amazonaws.com/RGU/Micro/food3.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">7 oz AAA Sirloin</h5>
+              <p class="card-text">Our 7oz AAA Canadian Sirloin, aged for 50 days and fire-grilled to order topped with
+                a
+                garlic herb butter and served with creamy potato smashers, two crispy onion rings and your choice of
+                in-house baked beans or coleslaw. Finish off your meal with four mini donuts tossed in cinnamon sugar
+                and
+                served with English toffee dipping sauce.</p>
+              <a href="#" class="btn like-btn like"><i class="fa fa-thumbs-up"></i> Like</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://robogarden-new.s3.us-west-2.amazonaws.com/RGU/Micro/food1.webp" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Seasonal Steak Special</h5>
+              <p class="card-text">Our 7oz AAA Canadian Sirloin, aged for 50 days and fire-grilled to order topped with
+                a
+                garlic herb butter and served with creamy potato smashers, two crispy onion rings and your choice of
+                in-house baked beans or coleslaw. Finish off your meal with four mini donuts tossed in cinnamon sugar
+                and
+                served with English toffee dipping sauce.</p>
+              <a href="#" class="btn like-btn like"><i class="fa fa-thumbs-up"></i> Like</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://robogarden-new.s3.us-west-2.amazonaws.com/RGU/Micro/food2.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">10 oz AAA Striploin</h5>
+              <p class="card-text">This centre cut, AAA Canadian Striploin is for the real steak lovers out there.
+                Seasoned in house for 8 hours and then grilled to order. Served with two onion rings, your choice of
+                in-house baked beans or coleslaw and seasoned fries. *Cannot guarantee steak doneness for take-out.</p>
+              <a href="#" class="btn like-btn like"><i class="fa fa-thumbs-up"></i> Like</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://robogarden-new.s3.us-west-2.amazonaws.com/RGU/Micro/food1.webp" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Seasonal Steak Special</h5>
+              <p class="card-text">Our 7oz AAA Canadian Sirloin, aged for 50 days and fire-grilled to order topped with
+                a
+                garlic herb butter and served with creamy potato smashers, two crispy onion rings and your choice of
+                in-house baked beans or coleslaw. Finish off your meal with four mini donuts tossed in cinnamon sugar
+                and
+                served with English toffee dipping sauce.</p>
+              <a href="#" class="btn like-btn like"><i class="fa fa-thumbs-up"></i> Like</a>
+            </div>
+          </div>
+      </section>
+
+
+    </div>
+    <section>
+      <footer class="bg-success text-center py-3">
+        <span class="text-light">&copy; 2023 Robogarden Inc.</span>
+      </footer>
+    </section>
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+    crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
